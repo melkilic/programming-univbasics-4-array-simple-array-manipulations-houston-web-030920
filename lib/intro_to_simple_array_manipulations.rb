@@ -26,7 +26,7 @@ def using_concat(chocolate, donut)
  chocolate.concat(donut)
 end
  def using_insert(array,new_element)
-  array.insert[4] << new_element
+  array.insert(4,new_element)
  end
 
 def using_uniq(array)
