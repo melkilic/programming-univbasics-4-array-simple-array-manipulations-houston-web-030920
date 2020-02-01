@@ -22,4 +22,6 @@ def shift_with_args(array)
 p= array.shift(2)
 end
 
-def using_concat
+def using_concat(chocolate, donut)
+  chocolate.concat(donut)
+end
